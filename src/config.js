@@ -52,7 +52,7 @@ export const config = {
 
   reception: {
     heading: "The reception will take place at:",
-    time: "07:00",
+    time: "07:00 PM",
     date: "2026-11-19",
   },
 
