@@ -30,7 +30,7 @@ export const config = {
     title: "Mr. & Mrs.",
     father: "Mr. Chandrashekhar",
     mother: "Mrs. Bharathi",
-    address: "",
+    address: "Ganadalu, Lakya(P), Chikkamagaluru (577168).",
   },
 
   announcement: ["We joyfully announce", "the wedding of our children"],
@@ -39,13 +39,13 @@ export const config = {
     {
       title:
         "Muhurtam ceremony at Sri Jagadguru Renukacharya Kalyana Mantapa, Chikkamagaluru",
-      time: "10:00",
+      time: "10 AM",
       date: "2026-11-20",
     },
     {
       title:
         "Wedding ceremony at Sri Jagadguru Renukacharya Kalyana Mantapa, Chikkamagaluru",
-      time: "12:00",
+      time: "12 PM",
       date: "2026-11-20",
     },
   ],
