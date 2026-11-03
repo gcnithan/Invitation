@@ -166,6 +166,12 @@ export default function Invitation() {
           <footer className="thanks">
             <p>{config.thankYou}</p>
             <GoldLine />
+            <p className="powered-by">
+              <span>
+                Powered by <strong>Navi Infotech</strong>
+              </span>
+              <img src="/navi-infotech.jpg" alt="Navi Infotech" />
+            </p>
           </footer>
           <img className="closing-castle" src={`${ART}/castle.webp`} alt="" />
         </div>

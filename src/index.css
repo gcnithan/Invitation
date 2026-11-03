@@ -956,6 +956,45 @@ img { max-width: 100%; display: block; }
 
 .thanks .gold-line { width: min(220px, 54%); margin-top: 22px; }
 
+.thanks .powered-by {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  margin: 28px auto 0;
+  width: max-content;
+  max-width: 100%;
+  color: rgba(100, 14, 27, 0.75);
+  font-family: var(--garamond);
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.powered-by span {
+  white-space: nowrap;
+}
+
+.powered-by img {
+  /* Size to the sentence width, not the image's natural width */
+  width: 0;
+  min-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.powered-by strong {
+  font-family: var(--serif);
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: var(--maroon);
+}
+
 .lightbox {
   position: fixed;
   inset: 0;
