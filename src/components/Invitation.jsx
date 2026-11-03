@@ -170,7 +170,7 @@ export default function Invitation() {
               <span>
                 Powered by <strong>Navi Infotech</strong>
               </span>
-              <img src="/navi-infotech.jpg" alt="Navi Infotech" />
+              <img src="/navi-infotech.png" alt="Navi Infotech" />
             </p>
           </footer>
           <img className="closing-castle" src={`${ART}/castle.webp`} alt="" />
